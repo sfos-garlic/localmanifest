@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="sfos-garlic" 
+            fetch="https://github.com/sfos-garlic/"
+            revision="hybris-16.0" />
+
+    <project path="device/yu/garlic" name="sfos-garlic/android_device_yu_garlic" revision="hybris-16.0" />
+    
+    <project path="kernel/tinno/msm8937" name="sfos-garlic/android_kernel_tinno_msm8937" revision="hybris-16.0" />
+    
+    <project path="device/tinno/msm8937-common" name="sfos-garlic/android_device_tinno_msm8937-common" revision="hybris-16.0" />
+    
+    <project path="vendor/yu" name="sfos-garlic/proprietary_vendor_yu" revision="hybris-16.0" />
+    
+    <project path="vendor/tinno" name="sfos-garlic/proprietary_vendor_tinno" revision="hybris-16.0" />
+    
+    <project path="rpm/" name="sfos-garlic/droid-hal-garlic" revision="hybris-16.0" />
+    <project path="hybris/droid-configs" name="sfos-garlic/droid-config-garlic" revision="hybris-16.0" />
+    <project path="hybris/droid-hal-version-garlic" name="sfos-garlic/droid-hal-version-garlic" revision="hybris-16.0" />
+</manifest> 
